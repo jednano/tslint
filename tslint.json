@@ -1,0 +1,27 @@
+{
+	"extends": [
+		"tslint:recommended"
+	],
+	"rules": {
+		"arrow-parens": false,
+		"indent": [
+			true,
+			"tabs"
+		],
+		"semicolon": [
+			true,
+			"never"
+		],
+		"trailing-comma": [
+			true,
+			{
+				"multiline": "always",
+				"singleline": "never"
+			}
+		],
+		"quotemark": [
+			true,
+			"single"
+		]
+	}
+}

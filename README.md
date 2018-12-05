@@ -1,2 +1,3 @@
 # tslint
-Base TSLint configuration file.
+
+A base [TSLint](https://palantir.github.io/tslint/) configuration file.

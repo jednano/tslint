@@ -1,0 +1,35 @@
+{
+	"name": "@jedmao/tslint",
+	"version": "0.1.0",
+	"description": "Base TSLint configuration file.",
+	"main": "tslint.json",
+	"tslint": "tslint.json",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jedmao/tslint.git"
+	},
+	"keywords": [
+		"tslint",
+		"typescript",
+		"lint",
+		"rules"
+	],
+	"author": "Jed Mao <jedmao@outlook.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jedmao/tslint/issues"
+	},
+	"homepage": "https://github.com/jedmao/tslint#readme",
+	"scripts": {
+		"test": "tslint --project tsconfig.json"
+	},
+	"peerDependencies": {
+		"tslint": "^5.11.0",
+		"typescript": "^3.2.1"
+	},
+	"devDependencies": {
+		"@jedmao/tsconfig": "^0.2.0",
+		"tslint": "^5.11.0",
+		"typescript": "^3.2.1"
+	}
+}
