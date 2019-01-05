@@ -8,6 +8,11 @@
 			true,
 			"tabs"
 		],
+		"interface-name": false,
+		"quotemark": [
+			true,
+			"single"
+		],
 		"semicolon": [
 			true,
 			"never"
@@ -18,10 +23,6 @@
 				"multiline": "always",
 				"singleline": "never"
 			}
-		],
-		"quotemark": [
-			true,
-			"single"
 		]
 	}
 }
