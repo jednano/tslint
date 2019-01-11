@@ -1,6 +1,6 @@
 {
 	"name": "@jedmao/tslint",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "Base TSLint configuration file.",
 	"main": "tslint.json",
 	"tslint": "tslint.json",
@@ -25,6 +25,7 @@
 	},
 	"peerDependencies": {
 		"tslint": "^5.12.1",
+		"tslint-config-prettier": "^1.17.0",
 		"typescript": "^3.2.2"
 	},
 	"devDependencies": {
